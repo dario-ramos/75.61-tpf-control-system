@@ -1,0 +1,25 @@
+Minutas primera reunion
+
+Problema I: Algoritmo genetico
+
+Se prefiere compilar las funciones/expresiones/leyes de control y enviar al Arduino.
+El Arduino tiene recursos limitados (1 kHz), y sólo recibe código en su formato
+binario.
+Por eso lo que hace ahora es compilar código Matlab a ese formato.
+
+Hace todo secuencialmente (ver si se puede paralelizar)
+
+Hacer el codigo adaptativo con algoritmos geneticos. Esto es para encontrar
+numericamente el mejor modelo.
+
+Otra alternativa es enviar datos al Arduino por una interfaz mas sencilla,
+quitandole carga de procesamiento y memoria.
+
+Mandar un individuo es preferible (mandar una generacion es muy pesado)
+
+El arduino se comunica con Matlab via un puente Rs232 sobre USB
+
+Problema: Matlab es propietario y lento. Por eso se quiere pasar a Python
+          También se desea mapear el código a Arduino y
+crear una interfaz mobile, aunque esto puede dejarse por limites de tiempo.
+          
